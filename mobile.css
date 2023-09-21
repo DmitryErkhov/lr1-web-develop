@@ -1,0 +1,135 @@
+@media (max-width: 930px){
+
+    header{
+        width: 100%;
+        font-size: calc(12px + 1.1vw);
+        justify-content: space-evenly;
+        padding-left: 1.8%;
+        padding-right: 1.8%;
+    
+        .logo{  
+            padding: 2px 8px 2px 8px;
+            box-shadow: 0px 5px 0px 0px #313132;
+        }
+    
+        .nav_list p:first-child {
+            padding-right: 1.4%;
+        }
+          
+        .nav_list p:last-child {
+            padding-left: 2.7%;
+            padding-right: 2.5%;
+        }
+    }
+
+    main{
+    
+        .about-me{
+            align-items: end;
+    
+            .my-photo{
+                width: 40vw;
+                margin-right: 7.8%;
+                padding: 0;
+            }
+    
+            .text-about{
+                margin-top: 0.4vh;
+            }
+    
+            .text-about p{
+                font-size: calc(10px + 1.1vw);
+                letter-spacing: 1px;
+            }
+        }
+    
+        .my-skills{
+            .grid-scill img {
+                width: 230px;
+                height: 157px;
+                margin-top: 2vh;
+                margin-bottom: 1vh;
+            }
+        }
+    
+        .my-skills p{
+            margin-top: 10px;
+            font-size: calc(10px + 1vw);
+        }
+    }
+
+    h1{
+        font-size: calc(18px + 3vw);
+    }
+    
+    h2{
+        font-size: calc(14px + 3vw);;
+    }
+    
+    h3{
+        font-size: calc(12px + 3vw);
+    }
+
+    h4{
+        color: #000;
+        font-family: AdventureIndianaJones;
+        font-size: calc(14px + 3vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    h5{
+        font-size: calc(14px + 1.1vw);
+    }
+    
+    button{
+        min-width: 110px;
+        width: 17vw;
+        min-height: 60px;
+        border: 2px solid #313132;
+        color: #000;
+        background-color: white;
+        text-align: center;
+        font-family: AdventureIndianaJones;
+        font-size: calc(12px + 1.5vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        flex-grow: 1;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 2vh 2vh 2vh 10px;
+    
+        .logo-bloc{
+            padding: 2px 8px 2px 8px;
+            margin-bottom: 2vh;
+            box-shadow: 4px 5px 0px 3px #313132;
+            font-size: calc(12px + 1.1vw);
+        }
+    
+        .contact-bloc{
+            width: 80vw;
+        }
+    
+        .contact-bloc p{
+            font-size: calc(14px + 1.1vw);
+            letter-spacing: 1.4px;
+        }
+    
+        .button-bloc{
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
+    
+        .button-bloc img{
+            width: 10vw;
+        }
+    }
+}
